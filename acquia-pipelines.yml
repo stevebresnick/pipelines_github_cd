@@ -7,7 +7,7 @@ events:
       - build_site:
           script:
             - touch docroot/index.html
-            - echo "Pipelines examples 701. You successfully deployed your build to an ODE" > docroot/index.html
+            - echo "This has been changed. Pipelines examples 701. You successfully deployed your build to an ODE" > docroot/index.html
 
       # Deploy the build artifact to a Cloud on-demand environment.
       - deploy:
